@@ -1,5 +1,6 @@
 @media (max-width:720px) {
     .about{
-        width:100%;
+        width:95%;
+        margin: auto;
     }
 }

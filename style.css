@@ -80,3 +80,16 @@ a{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
+footer{
+    margin: 30px;
+    font-size: 20px;
+}
+#love{
+    color: red;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#con{
+    color: darkred;
+}
