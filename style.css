@@ -221,7 +221,9 @@ footer{
         background-color: green;
     }
 }
-
+.back-end{
+    margin-top: 15px;
+}
 .back-end-skill{
     padding: 10px;
 }
@@ -315,4 +317,46 @@ footer{
         width: 80%;
         background-color: green;
     }
+}
+
+.Contact{
+    width: 90%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.Contact h1{
+    color: darkred;
+    margin-bottom:20px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.Contact p{
+    font-size: 23px;
+    font-family: sans-serif;
+    line-height: 1.7;
+    margin-bottom: 20px;
+}
+#mailto{
+    width: 100%;
+    display: block;
+    margin-bottom:20px;
+    font-size:20px;
+    color: black;
+    font-family:sans-serif;
+
+}
+.contact-social{
+    margin-bottom: 30px;
+}
+.contact-social ul{
+    list-style: none;
+    display: flex;
+}
+.contact-social i{
+    font-size:30px;
+    padding: 10px;
+    margin: 5px;
+    color: black;
 }
