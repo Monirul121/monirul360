@@ -4,3 +4,38 @@
         margin: auto;
     }
 }
+
+@media (min-width:720px){
+   
+    .show-menu{
+        display: none;
+    }
+}
+@media (max-width:720px) {
+     .mobile{
+        margin-bottom:70px;
+        background-color: orange;
+    }
+    #top-bar{
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:right;
+        margin-bottom: 60px;
+        display: none;
+    }
+    
+    .top-bar{
+        width: 100%;
+        background-color: white;
+        padding: 20px;
+        margin-top:30px;
+    }
+    .top-bar a{
+        width: 100%;
+        display: block;
+        padding: 5px;
+    }
+}
